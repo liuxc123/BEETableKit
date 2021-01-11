@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A8AF2525AC1F8F00DA764F /* AutolayoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF1F25AC1F8F00DA764F /* AutolayoutTableViewCell.swift */; };
+		04A8AF2625AC1F8F00DA764F /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF2025AC1F8F00DA764F /* NibTableViewCell.swift */; };
+		04A8AF2725AC1F8F00DA764F /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A8AF2125AC1F8F00DA764F /* NibTableViewCell.xib */; };
+		04A8AF2825AC1F8F00DA764F /* AutolayoutSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF2225AC1F8F00DA764F /* AutolayoutSectionHeaderView.swift */; };
+		04A8AF2925AC1F8F00DA764F /* ConfigurableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF2325AC1F8F00DA764F /* ConfigurableTableViewCell.swift */; };
+		04A8AF2A25AC1F8F00DA764F /* AutolayoutSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A8AF2425AC1F8F00DA764F /* AutolayoutSectionHeaderView.xib */; };
+		04A8AF3025AC1FB500DA764F /* AutolayoutCellsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF2D25AC1FB500DA764F /* AutolayoutCellsController.swift */; };
+		04A8AF3125AC1FB500DA764F /* NibCellsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF2E25AC1FB500DA764F /* NibCellsController.swift */; };
+		04A8AF3225AC1FB500DA764F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8AF2F25AC1FB500DA764F /* MainController.swift */; };
 		0FCB6F18AE68BFAE1CEAFEF1 /* Pods_BEETableKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD4F90422C338F9F1F436A2 /* Pods_BEETableKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -28,14 +36,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08454CA4F825513C19CB9B71 /* BEETableKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BEETableKit.podspec; path = ../BEETableKit.podspec; sourceTree = "<group>"; };
+		04A8AF1F25AC1F8F00DA764F /* AutolayoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutTableViewCell.swift; sourceTree = "<group>"; };
+		04A8AF2025AC1F8F00DA764F /* NibTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		04A8AF2125AC1F8F00DA764F /* NibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
+		04A8AF2225AC1F8F00DA764F /* AutolayoutSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutSectionHeaderView.swift; sourceTree = "<group>"; };
+		04A8AF2325AC1F8F00DA764F /* ConfigurableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableTableViewCell.swift; sourceTree = "<group>"; };
+		04A8AF2425AC1F8F00DA764F /* AutolayoutSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutolayoutSectionHeaderView.xib; sourceTree = "<group>"; };
+		04A8AF2D25AC1FB500DA764F /* AutolayoutCellsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutCellsController.swift; sourceTree = "<group>"; };
+		04A8AF2E25AC1FB500DA764F /* NibCellsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibCellsController.swift; sourceTree = "<group>"; };
+		04A8AF2F25AC1FB500DA764F /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		08454CA4F825513C19CB9B71 /* BEETableKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BEETableKit.podspec; path = ../BEETableKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AA2C2A2C6DE8BCE415BA606 /* Pods_BEETableKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEETableKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2733FC743BD65DCAF6D1D0D0 /* Pods-BEETableKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEETableKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BEETableKit_Example/Pods-BEETableKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		505E4EFC2EDF74FDACB1AD7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		505E4EFC2EDF74FDACB1AD7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BEETableKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEETableKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,7 +59,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9CD4F90422C338F9F1F436A2 /* Pods_BEETableKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEETableKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D722C5B187DF2CC062294E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9D722C5B187DF2CC062294E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA99421DE383306956A3C115 /* Pods-BEETableKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEETableKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-BEETableKit_Tests/Pods-BEETableKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EAD4C7FD0718202BE5D5F6BB /* Pods-BEETableKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEETableKit_Example.release.xcconfig"; path = "Target Support Files/Pods-BEETableKit_Example/Pods-BEETableKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EED0C8987127CD3A94304A92 /* Pods-BEETableKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEETableKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BEETableKit_Tests/Pods-BEETableKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +85,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A8AF1B25AC1F7700DA764F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04A8AF2D25AC1FB500DA764F /* AutolayoutCellsController.swift */,
+				04A8AF2F25AC1FB500DA764F /* MainController.swift */,
+				04A8AF2E25AC1FB500DA764F /* NibCellsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04A8AF1E25AC1F8500DA764F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A8AF2225AC1F8F00DA764F /* AutolayoutSectionHeaderView.swift */,
+				04A8AF2425AC1F8F00DA764F /* AutolayoutSectionHeaderView.xib */,
+				04A8AF1F25AC1F8F00DA764F /* AutolayoutTableViewCell.swift */,
+				04A8AF2325AC1F8F00DA764F /* ConfigurableTableViewCell.swift */,
+				04A8AF2025AC1F8F00DA764F /* NibTableViewCell.swift */,
+				04A8AF2125AC1F8F00DA764F /* NibTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5CEDD5A2286723DE93BF4615 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +116,6 @@
 				EED0C8987127CD3A94304A92 /* Pods-BEETableKit_Tests.debug.xcconfig */,
 				CA99421DE383306956A3C115 /* Pods-BEETableKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,7 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				04A8AF1E25AC1F8500DA764F /* Views */,
+				04A8AF1B25AC1F7700DA764F /* Controllers */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -171,7 +210,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BE19CF04716A9FA1980C9251 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				04A8AF2A25AC1F8F00DA764F /* AutolayoutSectionHeaderView.xib in Resources */,
+				04A8AF2725AC1F8F00DA764F /* NibTableViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -284,24 +325,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE19CF04716A9FA1980C9251 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BEETableKit_Example/Pods-BEETableKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BEETableKit/BEETableKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEETableKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BEETableKit_Example/Pods-BEETableKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DD8F5F2E5974A7F5BB25E6B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,8 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				04A8AF2625AC1F8F00DA764F /* NibTableViewCell.swift in Sources */,
+				04A8AF3025AC1FB500DA764F /* AutolayoutCellsController.swift in Sources */,
+				04A8AF3125AC1FB500DA764F /* NibCellsController.swift in Sources */,
+				04A8AF3225AC1FB500DA764F /* MainController.swift in Sources */,
+				04A8AF2825AC1F8F00DA764F /* AutolayoutSectionHeaderView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				04A8AF2925AC1F8F00DA764F /* ConfigurableTableViewCell.swift in Sources */,
+				04A8AF2525AC1F8F00DA764F /* AutolayoutTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

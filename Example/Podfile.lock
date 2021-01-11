@@ -1,0 +1,16 @@
+PODS:
+  - BEETableKit (1.0.0)
+
+DEPENDENCIES:
+  - BEETableKit (from `../`)
+
+EXTERNAL SOURCES:
+  BEETableKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BEETableKit: bc5127fff06769d0833162973bd6011fc994309c
+
+PODFILE CHECKSUM: 287ebadb8e48cc6598c82b62ccb8555df24953d5
+
+COCOAPODS: 1.9.1
